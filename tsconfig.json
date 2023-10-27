@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    // https://www.typescriptlang.org/tsconfig#target
+    "target": "es2022",
+
+    // https://www.typescriptlang.org/tsconfig#module
+    "module": "commonjs",
+
+    // https://www.typescriptlang.org/tsconfig#noEmit
+    "noEmit": true,
+
+    // https://www.typescriptlang.org/tsconfig#allowJs
+    "allowJs": true,
+
+    // https://www.typescriptlang.org/tsconfig#strict
+    "strict": true,
+
+    // https://www.typescriptlang.org/tsconfig#checkJs
+    "checkJs": true,
+
+    // https://www.typescriptlang.org/tsconfig#esModuleInterop
+    "esModuleInterop": true,
+
+    // https://www.typescriptlang.org/tsconfig#skipLibCheck
+    "skipLibCheck": true
+  },
+  "exclude": ["src/__tests__/"]
+}
